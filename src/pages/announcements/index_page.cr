@@ -9,7 +9,7 @@ class Announcements::IndexPage < BasePage
     ul do
       @announcements.each do |announcement|
         li do
-          text announcement.title
+          link announcement.title, to: Announcements::Show.route(announcement)
           link "Delete", to: Announcements::Delete.route(announcement)
         end
       end
