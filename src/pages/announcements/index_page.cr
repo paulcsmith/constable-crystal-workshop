@@ -1,5 +1,5 @@
 class Announcements::IndexPage < BasePage
-  assign announcements : AnnouncementQuery
+  assign announcements : Announcement::BaseQuery
 
   render do
     h1 "Announcements"

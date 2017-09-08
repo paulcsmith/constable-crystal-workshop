@@ -22,7 +22,7 @@ shards:
 
   lucky_record:
     github: luckyframework/record
-    commit: febf7bd6f4b52c1d2f71387eb6b8a196bf9cf421
+    commit: 24925ed123c36d185cbaa80dad07a541e944c6e8
 
   lucky_web:
     github: luckyframework/web
