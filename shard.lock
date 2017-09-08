@@ -1,0 +1,38 @@
+version: 1.0
+shards:
+  blank:
+    github: kostya/blank
+    commit: 9106c23080fb08f271dcd00d4de75fd6481a1de6
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.4.2
+
+  habitat:
+    github: luckyframework/habitat
+    commit: 6b5afc508c2e210ff764b5f30fe0e8c267c39eca
+
+  lucky_cli:
+    github: luckyframework/cli
+    version: 0.4.2
+
+  lucky_migrator:
+    github: luckyframework/migrator
+    commit: 0d39ee23f5f4df764eff79bfc25300916005fb42
+
+  lucky_record:
+    github: luckyframework/record
+    commit: febf7bd6f4b52c1d2f71387eb6b8a196bf9cf421
+
+  lucky_web:
+    github: luckyframework/web
+    version: 0.3.3
+
+  pg:
+    github: will/crystal-pg
+    version: 0.13.3
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.8
+
