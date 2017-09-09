@@ -26,7 +26,7 @@ shards:
 
   lucky_web:
     github: luckyframework/web
-    version: 0.3.5
+    version: 0.3.6
 
   pg:
     github: will/crystal-pg
