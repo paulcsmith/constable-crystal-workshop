@@ -1,6 +1,6 @@
 class Announcements::ShowPage < BasePage
-  assign announcement : Announcement
-  assign comment_form : CommentForm
+  needs announcement : Announcement
+  needs comment_form : CommentForm
 
   render do
     raw "&laquo"
@@ -29,7 +29,7 @@ class Announcements::ShowPage < BasePage
       errors_for f.author
 
       label_for f.body
-      text_input f.body
+      textarea f.body
       errors_for f.body
 
       submit "Save comment"

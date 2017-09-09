@@ -1,5 +1,5 @@
 class Announcements::NewPage < BasePage
-  assign announcement_form : AnnouncementForm
+  needs announcement_form : AnnouncementForm
 
   render do
     h1 "Create a new announcement"
