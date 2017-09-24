@@ -1,6 +1,4 @@
 abstract class BaseAction < LuckyWeb::Action
-  include LuckyWeb::Exposeable
-
   macro inherited
     # If something should always be exposed to your pages, expose them here.
     #
