@@ -5,6 +5,7 @@ class Announcements::ShowPage < BasePage
   render do
     raw "&laquo"
     link "Back to announcements", to: Announcements::Index
+    link "Update", to: Announcements::Update.route(@announcement)
     h1 @announcement.title
     render_comments
     render_comment_form(@comment_form)
