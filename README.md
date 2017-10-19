@@ -1,6 +1,6 @@
 # Constable Crystal
 
-A simple rewrite of Constable using Lucky
+A simple rewrite of Constable using Lucky framework
 
 ## Installation
 
@@ -24,7 +24,6 @@ You will probably already have these, but you’ll also need:
 * Postgres
 * Yarn
 * Heroku CLI
-
 
 ## Usage
 
